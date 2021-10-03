@@ -1,0 +1,62 @@
+.container{
+    margin: auto;
+    text-align: center;
+    width: 850px;
+    height: 450px;
+    background-image: url( https://pbs.twimg.com/media/CPwv-TlWUAAhFVx?format=jpg&name=small);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: 100% 130%; 
+    background-attachment: scroll;
+  }
+  .text-overlay{ 
+    padding: 125px;
+  }
+  h1{
+    color: white;
+    font-size: 95px;
+    font-family: 'Lilita One', cursive;
+    }
+  .contact-box{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto; 
+    width: 850px;
+    height: 324px;
+    background-color: #dcdcdc
+  }
+  .social-media{ 
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    }
+  .title{ 
+    padding-top: -45px;
+    padding-left: 25px;
+    font-weight: bold;}
+  .social-list{ 
+    list-style-type: none;
+    padding-left: 25px;
+    font-size: 13px;
+  }
+  
+  .office-info{ 
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    }
+  .title-2{ 
+    padding-top: -45px;
+    padding-left: 25px;
+    font-weight: bold;}
+  .business-info{ 
+    list-style-type: none;
+    padding-left: 25px;
+    font-size: 13px;
+  }
+  .send-info{ 
+    font-size: 15px;
+    color: white;
+    background-color: #4d4d4d
+  
+  }
